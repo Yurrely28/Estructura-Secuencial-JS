@@ -36,3 +36,12 @@ salario = base + (comision*cautos) + (monto*extra/100)
 console.log(`El salario total es ${salario}`) */
 
 console.log("PUNTO 5")
+let n1,n2,n3,n4,prom=0
+
+n1=parseFloat(prompt("Digita la primera nota  del 40 %"))
+n2=parseFloat(prompt("Digita la segunda nota del 40 %"))
+n3=parseFloat(prompt("Digita la primera nota  del 60 %"))
+n4=parseFloat(prompt("Digita la segunda nota  del 60 %"))
+prom= ((n1+n2)/2) + ((n3+n4)/2)
+console.log(res1)
+console.log(res2)
